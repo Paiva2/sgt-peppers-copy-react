@@ -5,16 +5,19 @@ import { CaretLeft, CaretRight } from "@phosphor-icons/react";
 import { ArrowsContainer, CarouselAreaContainer, Carousel } from "./styles";
 import { imagesData } from "./images/carouselImages";
 import "keen-slider/keen-slider.min.css";
+import useResponsive from "@/hooks/useResponsive";
 
 const CarouselComponent = () => {
+  const { isMobile } = useResponsive();
+
   const [sliderRef, instanceRef] = useKeenSlider({
     initial: 0,
-    mode: "free-snap",
+    mode: isMobile ? "snap" : "free-snap",
     loop: true,
 
     slides: {
       origin: "center",
-      perView: 2,
+      perView: isMobile ? 1 : 2,
     },
   });
 

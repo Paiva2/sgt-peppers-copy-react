@@ -10,7 +10,7 @@ export const FooterContainer = styled.footer`
   background-color: #222;
   color: #fff;
 
-  @media only screen and ${devices.sm} {
+  @media only screen and (${devices.sm}) {
     flex-direction: column;
     gap: 2.5rem;
   }
@@ -73,7 +73,7 @@ export const SearchContainer = styled.div`
     font-size: 1.25rem;
   }
 
-  @media only screen and ${devices.sm} {
+  @media only screen and (${devices.sm}) {
     width: 80%;
   }
 `;

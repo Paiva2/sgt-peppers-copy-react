@@ -51,7 +51,7 @@ export const NavBar = styled.div`
       }
     }
 
-    @media only screen and ${devices.sm} {
+    @media only screen and (${devices.sm}) {
       display: none;
     }
   }

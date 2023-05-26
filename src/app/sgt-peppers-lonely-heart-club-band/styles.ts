@@ -9,7 +9,7 @@ export const HomeMainContainer = styled.div`
   padding-top: 9.375rem;
   flex-direction: column;
 
-  @media only screen and ${devices.sm} {
+  @media only screen and (${devices.sm}) {
     padding-top: 6.375rem;
   }
 `;
@@ -19,7 +19,7 @@ export const Main = styled.main`
   justify-content: center;
   font-size: 1rem;
 
-  @media only screen and ${devices.sm} {
+  @media only screen and (${devices.sm}) {
     flex-direction: column;
   }
 
@@ -66,7 +66,7 @@ export const MiddleContents = styled.div`
   border-right: 1px solid rgba(83, 82, 80, 0.33);
   max-width: 65%;
 
-  @media only screen and ${devices.sm} {
+  @media only screen and (${devices.sm}) {
     max-width: 100%;
   }
 `;

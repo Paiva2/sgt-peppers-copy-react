@@ -8,7 +8,7 @@ export const AsideTextsContainer = styled.aside`
   padding: 7.1875rem 1.25rem 0px 5rem;
   gap: 1rem;
 
-  @media only screen and ${devices.sm} {
+  @media only screen and (${devices.sm}) {
     max-width: 100%;
     padding: 15px;
   }
