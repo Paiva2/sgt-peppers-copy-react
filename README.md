@@ -11,7 +11,7 @@ This project is a replica of the page for The Beatles' album "Sgt. Pepper's Lone
 
 # Online Preview
 
-## [Preview](sgt-peppers-copy.netlify.app)
+## [Preview](https://sgt-peppers-copy.netlify.app/)
 
 # Resources Used
 
