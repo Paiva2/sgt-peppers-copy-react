@@ -10,7 +10,7 @@ const montSerrat = Montserrat({
   subsets: ["latin"],
 });
 
-export const metadata = {
+const metadata = {
   title: "Sgt. Pepper's Lonely Hearts Club Band | The Beatles",
   description: "Sgt. Pepper's Lonely Hearts Club Band algum page",
 };
