@@ -12,6 +12,10 @@ export const HeaderComponent = styled.header`
   background: #fff;
   box-shadow: 0 1px 10px rgba(83, 82, 80, 0.33);
   gap: 3.25rem;
+
+  @media only screen and (${devices.sm}) {
+    justify-content: space-between;
+  }
 `;
 
 export const LogoWrapper = styled.div`
@@ -26,10 +30,6 @@ export const NavBar = styled.div`
   align-items: center;
   justify-content: center;
   height: 100%;
-
-  @media only screen and (${devices.sm}) {
-    position: relative;
-  }
 
   .menu-hamburguer {
     opacity: 0;
@@ -76,7 +76,7 @@ export const NavBar = styled.div`
         border-left: none;
         border-bottom: 1px solid #f7f7f7;
         padding: 0.625rem;
-        width: 100vw;
+        width: 100%;
       }
     }
 
@@ -84,6 +84,9 @@ export const NavBar = styled.div`
       background-color: #fff;
       position: absolute;
       top: 100%;
+      width: 100vw;
+      left: 50%;
+      transform: translate(-50%, 0px);
       display: flex;
       align-items: center;
       text-align: center;
@@ -94,7 +97,6 @@ export const NavBar = styled.div`
       background-color: #fff;
       flex-direction: column;
       gap: 1.25rem;
-      padding: 0rem 1.875rem 0rem 1.875rem;
     }
   }
 `;
