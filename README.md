@@ -5,8 +5,8 @@ This project is a replica of the page for The Beatles' album "Sgt. Pepper's Lone
 # Technologies Used
 
 - HTML
-- CSS (with Styled Components)
-- JavaScript
+- Styled Components
+- TypeScript
 - Next.js
 
 # Online Preview
