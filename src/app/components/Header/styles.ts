@@ -75,7 +75,7 @@ export const NavBar = styled.div`
       @media only screen and (${devices.sm}) {
         border-left: none;
         border-bottom: 1px solid #f7f7f7;
-        padding: 10px;
+        padding: 0.625rem;
         width: 100vw;
       }
     }
@@ -88,14 +88,13 @@ export const NavBar = styled.div`
       align-items: center;
       text-align: center;
       box-shadow: 0 1px 3px -2px black;
-
-      z-index: 1000;
       opacity: 0;
       visibility: hidden;
       height: auto;
       background-color: #fff;
       flex-direction: column;
       gap: 1.25rem;
+      padding: 0rem 1.875rem 0rem 1.875rem;
     }
   }
 `;
