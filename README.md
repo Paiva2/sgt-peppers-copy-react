@@ -14,3 +14,7 @@ This project is a replica of the page for The Beatles' album "Sgt. Pepper's Lone
 [Official Beatles Website](https://www.thebeatles.com/sgt-peppers-lonely-hearts-club-band-0)
 
 # Online Preview
+
+[Preview](sgt-peppers-copy.netlify.app)
+
+# Make sure to reload the page if you set resolution to mobile, or it will not work properly.
