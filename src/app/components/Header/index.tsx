@@ -1,17 +1,36 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { HeaderComponent, LogoWrapper, NavBar } from "./styles";
 import Logo from "./Logo";
+import { List, X } from "@phosphor-icons/react";
 
 const Header = () => {
+  const [toggleDropDownMenu, setToggleDropDownMenu] = useState(false);
+
   return (
     <HeaderComponent>
       <LogoWrapper>
         <Logo />
       </LogoWrapper>
       <NavBar>
-        <ul>
+        {!toggleDropDownMenu ? (
+          <List
+            className="menu-hamburguer"
+            onClick={() => setToggleDropDownMenu(!toggleDropDownMenu)}
+            size={35}
+            weight="bold"
+          />
+        ) : (
+          <X
+            className="menu-hamburguer"
+            size={35}
+            onClick={() => setToggleDropDownMenu(!toggleDropDownMenu)}
+          />
+        )}
+        <ul
+          style={toggleDropDownMenu ? { visibility: "visible", opacity: "1" } : {}}
+        >
           <li>
             <a>ALBUMS</a>
           </li>
