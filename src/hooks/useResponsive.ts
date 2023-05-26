@@ -1,6 +1,6 @@
 import { useState, useLayoutEffect } from "react";
 
-export default function useResponsive() {
+export default function useDeviceDetect() {
   const [isMobile, setIsMobile] = useState(false);
 
   useLayoutEffect(() => {
