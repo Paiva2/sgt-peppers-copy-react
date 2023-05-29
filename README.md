@@ -1,6 +1,6 @@
  <h1 align="center"> Sgt. Pepper's Lonely Hearts Club Band Album Page Replica</h1>
 
-This project is a replica of the page for The Beatles' album "Sgt. Pepper's Lonely Hearts Club Band", developed with the aim of improving my programming skills. The original project was created months ago when I was just starting out in programming. Now, I decided to rebuild the project from scratch using Styled Components and Next.js to practice and enhance my skills.
+This project is a page replica of The Beatles official site. When I started my studies as a web developer, this was my first project, and now I decided to redo it to see how much I had improved my skills =)
 
 # Technologies Used
 
